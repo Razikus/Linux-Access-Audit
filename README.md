@@ -1,5 +1,5 @@
 
-# AccessAudit README
+# AccessAudit
 
 ## Video
 
@@ -7,7 +7,10 @@ Check instruction video! [here](https://www.youtube.com/watch?v=TwhQU6Aj2pI)
 
 ## Introduction
 
-AccessAudit is a simple program that allows to forward all Access Linux Events into [immudb Vault](https://vault.immudb.io) 
+Imagine you have a garage with 1 million dollar car inside. You gave a key for someone that will clean your car daily. Without any camera or access control - will you sleep well in the night? 
+
+AccessAudit is exactly this - logs any access request into immutable cloud database [immudb Vault](https://vault.immudb.io) designed to provide tamper proof storage.
+
 
 ## Features
 
