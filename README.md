@@ -27,7 +27,7 @@ The script will:
 
 1. Ensure the script is executed on a system running Linux.
 2. The script must be executed by a user with sudo privileges.
-3. You need to have the `curl`, `sudo` and `rsyslog` installed.
+3. You need to have the `curl`, `sudo`, `rsyslog` and `systemctl` installed.
 4. Access to immudb Vault with a valid Write API Key. (You can obtain it [here](https://vault.immudb.io/))
 
 ## Usage
