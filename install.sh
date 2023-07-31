@@ -40,7 +40,7 @@ echo "Testing your key with simple request..."
 
 vault_status_code=$(curl -w "%{http_code}" -X POST https://vault.immudb.io/ics/api/v1/ledger/default/collection/default/documents/count -H "X-API-KEY: $vaultKey" -d '{}' -H 'Content-Type: application/json' --silent --output /dev/null)
 
-if [ "$vault_status_code" = "200" ] || [ "$vault_status_code" = "400" ]; then
+if [ "$vault_status_code" = "200" ] || [ "$vault_status_code" = "404" ]; then
     echo "API key works. Proceed with installation"
 else   
     echo "Vault status code was $vault_status_code"
